@@ -1,13 +1,13 @@
 public class Teacher extends Person
 {
-    private String subject;
+    private String Subject;
     private String Title;
-    public Teacher (String subject, String Title)
+    public Teacher (String Subject, String Title)
     {
         super("Adam","Smith");
-        this.subject = subject;
-        this.subject = Title;
+        this.Subject = Subject;
+        this.Title = Title;
     }
-    public getSubject() {return subject;}
-    public toString() {return Title + ". " + familyName();}
+    public String getSubject() { return Subject;}
+    public String toString() {return Title + ". " + getFamilyName();}
 }
