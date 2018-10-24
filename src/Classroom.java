@@ -10,8 +10,15 @@ public class Classroom extends Teacher
         this.students=students;
 
 
+        for(Student :students)
+        {
+            double gpa=(double GPA);
+            System.out.println(gpa+GPA);
+
+        }
+
+
 
     }
-    public void getSubject(){getSubject();}
 
 }
