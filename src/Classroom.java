@@ -10,9 +10,10 @@ public class Classroom extends Teacher
         this.students=students;
 
 
-        for(Student :students)
+
+        for(students : Student)
         {
-            double gpa=(double GPA);
+            getGPA();
             System.out.println(gpa+GPA);
 
         }
