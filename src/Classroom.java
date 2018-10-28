@@ -5,7 +5,7 @@ public class Classroom extends Teacher
     private Student[]students;
     public Classroom (Teacher teacher, Student[] students)
     {
-        super("Math", "Mr.");
+        super("", "");
         this.teacher=teacher;
         this.students=students;
     }
