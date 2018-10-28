@@ -19,8 +19,11 @@ public class Classroom extends Teacher
         }
         return x/students.length;
     }
-
-
     public String getSubject() {return teacher.getSubject();}
-
+    public void printClass()
+    {
+        System.out.println(teacher.toString());
+        System.out.println(getSubject());
+        System.out.println(students);
+    }
 }
