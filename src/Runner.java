@@ -9,8 +9,8 @@ public class Runner {
         Student student3 = new Student(2.7,16,11);
         Student student4 = new Student(3.7, 17,11);
         Student[] students = {student1,student2,student3,student4};
-        Teacher classRoom = new Classroom(teacher,students);
-        Classroom.printClass();
-        System.out.println(Classroom.classAverage());
+        Classroom classRoom = new Classroom(teacher,students);
+        classRoom.printClass();
+        classRoom.classAverage();
     }
 }
