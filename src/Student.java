@@ -8,12 +8,21 @@ public class Student extends Person {
         this.age= age;
         this.grade= grade;
     }
+    /**
+     * @return the GPA
+     */
     public double getGPA(){
         return GPA;
     }
+    /**
+     * @returnthe age of the student
+     */
     public int getage(){
         return age;
     }
+    /**
+     * @return the grade the studdent is in
+     */
     public int getgrade(){
         return grade;
     }
