@@ -4,7 +4,7 @@ public class Teacher extends Person
     private String Title;
     public Teacher (String Subject, String Title)
     {
-        super("","");
+        super("","Levin");
         this.Subject = Subject;
         this.Title = Title;
     }

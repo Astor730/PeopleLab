@@ -1,6 +1,4 @@
-public class Classroom extends Teacher
-{
-
+public class Classroom extends Teacher {
     private Teacher teacher;
     private Student[]students;
     public Classroom (Teacher teacher, Student[] students)
